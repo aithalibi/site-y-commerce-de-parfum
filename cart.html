@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Panier - Chanel Parfums</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+</head>
+<body>
+    <div class="container">
+        <header class="nav">
+            <h1 id="logo">CHANEL</h1>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="CONTACT US.html">Contact</a></li>
+                    <li><a href="üarfum.html">Parfums</a></li>
+                    <li><a href="login.html">Connexion</a></li>
+                    <li class="cart-icon">
+                        <a href="cart.html">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span id="cart-count">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="cart-page">
+            <h2>Mon Panier</h2>
+            <div class="cart-container">
+                <div id="cart-items">
+                    <!-- Les articles du panier seront ajoutés ici dynamiquement -->
+                </div>
+                <div class="cart-summary">
+                    <h3>Résumé de la commande</h3>
+                    <p id="cart-total">Total: 0.00 €</p>
+                    <button class="checkout-button">Procéder au paiement</button>
+                </div>
+            </div>
+        </main>
+
+        <footer id="about">
+            <div class="footer-content">
+                <div class="foot">
+                    <h4>Explorer Chanel.com</h4>
+                    <ul>
+                        <li><a href="#">Haute Couture</a></li>
+                        <li><a href="#">Mode</a></li>
+                        <li><a href="#">Parfums</a></li>
+                    </ul>
+                </div>
+                <div class="foot">
+                    <h4>Services en ligne</h4>
+                    <ul>
+                        <li><a href="#">Modes de paiement</a></li>
+                        <li><a href="#">Options de livraison</a></li>
+                        <li><a href="#">Retours</a></li>
+                        <li><a href="#">Conseil & Services</a></li>
+                    </ul>
+                </div>
+                <div class="foot">
+                    <h4>Service en boutique</h4>
+                    <ul>
+                        <li><a href="#">Trouver une boutique</a></li>
+                        <li><a href="#">Les Rendez-vous CHANEL</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div id="cart-notification" class="cart-notification">
+        Produit ajouté au panier
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html> 

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez notre collection exclusive de parfums Chanel. Luxe, élégance et fragrances d'exception.">
+    <meta name="keywords" content="parfum, Chanel, luxe, fragrance, parfumerie, cosmétiques">
+    <link rel="stylesheet" href="home.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <link rel="stylesheet" href="style.css">
+    <title>Parfums Chanel - Collection Exclusive</title>
+</head>
+<body>
+    <div class="container">
+        <header class="nav">
+            <h1 id="logo">CHANEL</h1>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="CONTACT US.html">Contact</a></li>
+                    <li><a href="üarfum.html">Parfums</a></li>
+                    <li><a href="login.html">Connexion</a></li>
+                    <li class="cart-icon">
+                        <a href="cart.html">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span id="cart-count">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="content">
+                <div class="columan">
+                    <h2>Parfums Chanel</h2>
+                    <p>Chanel Parfum incarne l'essence même du luxe intemporel et de l'élégance. 
+                       Chaque fragrance est une œuvre d'art olfactive, soigneusement élaborée pour 
+                       capturer des émotions et des souvenirs uniques.</p>
+                    <a href="üarfum.html" class="cta-button">Découvrir nos parfums</a>
+                </div>
+                <div class="columan parfums-grid">
+                    <div class="chanel chanel1"></div>
+                    <div class="chanel chanel2"></div>
+                    <div class="chanel chanel3"></div>
+                    <div class="chanel chanel4"></div>
+                </div>
+            </section>
+
+            <section class="nouveautes">
+                <h2>Nos Nouveautés</h2>
+                <div class="parfums-grid">
+                    <div class="parfum-card">
+                        <img src="1699977208182-desktop01lesexclusifsjpg_1242x1242.webp" alt="Les Exclusifs de Chanel">
+                        <h3>Les Exclusifs de Chanel</h3>
+                        <p>Une collection raffinée de fragrances d'exception</p>
+                        <div class="parfum-price">250.00 €</div>
+                        <button class="cta-button" onclick="addToCart(1, 'Les Exclusifs de Chanel', 250.00, '1699977208182-desktop01lesexclusifsjpg_1242x1242.webp')">
+                            <i class="fas fa-shopping-cart"></i> Ajouter au panier
+                        </button>
+                    </div>
+                    <div class="parfum-card">
+                        <img src="1699977197564-desktop01cocochaneljpg_1242x1242.webp" alt="Coco Chanel">
+                        <h3>Coco Mademoiselle</h3>
+                        <p>L'essence de la féminité moderne</p>
+                        <div class="parfum-price">135.00 €</div>
+                        <button class="cta-button" onclick="addToCart(2, 'Coco Mademoiselle', 135.00, '1699977197564-desktop01cocochaneljpg_1242x1242.webp')">
+                            <i class="fas fa-shopping-cart"></i> Ajouter au panier
+                        </button>
+                    </div>
+                    <div class="parfum-card">
+                        <img src="1699977181688-desktop01chaneln5jpg_1242x1242.webp" alt="Chanel N°5">
+                        <h3>Chanel N°5</h3>
+                        <p>L'iconique parfum intemporel</p>
+                        <div class="parfum-price">145.00 €</div>
+                        <button class="cta-button" onclick="addToCart(3, 'Chanel N°5', 145.00, '1699977181688-desktop01chaneln5jpg_1242x1242.webp')">
+                            <i class="fas fa-shopping-cart"></i> Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="about">
+            <div class="footer-content">
+                <div class="foot">
+                    <h4>Explorer Chanel.com</h4>
+                    <ul>
+                        <li><a href="#">Haute Couture</a></li>
+                        <li><a href="#">Mode</a></li>
+                        <li><a href="#">Parfums</a></li>
+                    </ul>
+                </div>
+                <div class="foot">
+                    <h4>Services en ligne</h4>
+                    <ul>
+                        <li><a href="#">Modes de paiement</a></li>
+                        <li><a href="#">Options de livraison</a></li>
+                        <li><a href="#">Retours</a></li>
+                        <li><a href="#">Conseil & Services</a></li>
+                    </ul>
+                </div>
+                <div class="foot">
+                    <h4>Service en boutique</h4>
+                    <ul>
+                        <li><a href="#">Trouver une boutique</a></li>
+                        <li><a href="#">Les Rendez-vous CHANEL</a></li>
+                    </ul>
+                </div>
+                <div class="foot">
+                    <h4>La Maison Chanel</h4>
+                    <ul>
+                        <li><a href="#">Carrières</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Mentions légales</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" class="icon facebook">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                </a>
+                <a href="#" class="icon instagram">
+                    <span><i class="fab fa-instagram"></i></span>
+                </a>
+                <a href="#" class="icon twitter">
+                    <span><i class="fab fa-twitter"></i></span>
+                </a>
+                <a href="#" class="icon youtube">
+                    <span><i class="fab fa-youtube"></i></span>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <div id="cart-notification" class="cart-notification">
+        Produit ajouté au panier
+    </div>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+    <script src="cart.js"></script>
+</body>
+</html>
